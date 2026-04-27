@@ -1,18 +1,18 @@
 # arm-topo
 
 ---
-### Github
+## Github
 https://github.com/arm/topo
 
 ---
-### Install topo - Linux and macOS
+## Install topo - Linux and macOS
 
 ```
 curl -fsSL https://raw.githubusercontent.com/arm/topo/refs/heads/main/scripts/install.sh | sh
 ```
 
 ---
-### Getting Started
+## Getting Started
 
 ```
 topo setup-keys --target ssh://demo@192.168.52.56
@@ -20,7 +20,7 @@ topo health --target demo@192.168.52.56
 ```
 
 
-#### 1. Check that everything is ready
+### 1. Check that everything is ready
 
 ```
 topo health --target demo@192.168.52.56
@@ -45,7 +45,7 @@ Subsystem Driver (remoteproc): ℹ (no remoteproc devices found)
 ```
 
 
-#### 2. Find a template
+### 2. Find a template
 
 ```
 topo templates --target [user@]host
